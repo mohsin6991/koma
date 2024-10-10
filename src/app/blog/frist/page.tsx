@@ -1,4 +1,5 @@
-export default function First(){
+import React from "react";
+ function First(){
     return(
         <div className="container">
             <h1>First</h1>
@@ -6,3 +7,4 @@ export default function First(){
     )
 }
 
+export default First;

@@ -1,10 +1,13 @@
+import React from "react";
 
-import Abute from "./abute/page";
-export default  function Home() {
+import Link from "next/link";
+function Home() {
     return (
     <div>
         <h1>This is Frist One</h1>
-        <Abute />
+        <Link href="/abute">Abute Link</Link>
+        
     </div>
     );
 }
+export default Home;

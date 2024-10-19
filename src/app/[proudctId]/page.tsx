@@ -1,6 +1,6 @@
 
-
-export default function Product({ params }: { params: { productId: string } }) {
+import React from "react";
+function Product({ params }: { params: { productId: string } }) {
     return (
         <div className="product">
             <h1>
@@ -10,4 +10,4 @@ export default function Product({ params }: { params: { productId: string } }) {
     );
 }
 
-
+export default Product;

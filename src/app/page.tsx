@@ -1,13 +1,13 @@
 import React from "react";
-
 import Link from "next/link";
+
 function Home() {
     return (
-    <div>
-        <h1>This is Frist One</h1>
-        <Link href="/abute">Abute Link</Link>
-        
-    </div>
+        <div className="font-roboto">
+            <h1 className="text-3xl font-bold">This is First One</h1>
+            <Link href="/about" className="text-blue-500 underline">About Link</Link>
+        </div>
     );
 }
+
 export default Home;

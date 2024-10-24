@@ -1,6 +1,6 @@
 
 import React from "react";
- function Abute(){
+ function abute(){
     return <h1>Abute Page</h1>
 }
-export default Abute;
+export default abute;

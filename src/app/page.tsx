@@ -1,13 +1,17 @@
-import React from "react";
-import Link from "next/link";
 
-function Home() {
+
+
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
+export default  function Home() {
     return (
-        <div className="font-roboto">
-            <h1 className="text-3xl font-bold text-green-500">update </h1>
-            <Link href="/about" className="text-green-500 underline">About Link</Link>
-        </div>
+    <div className="text-red-700">
+      <Header />
+
+        <h1 className="bg-green-300">This is Frist One</h1>
+      <Footer />
+      
+    </div>
     );
 }
-
-export default Home;

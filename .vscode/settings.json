@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "\"css.lint.unknownAtRules\": \"ignore\",": true
+    },
+    "search.useGlobalIgnoreFiles": false,
+    "search.useParentIgnoreFiles": false,
+    "search.useIgnoreFiles": false
+}

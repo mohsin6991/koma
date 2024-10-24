@@ -11,11 +11,11 @@ export default function Menu() {
  return (  
  <div>  
  <Header />  
- <main className="container mx-auto p-4">  
- <h2 className="text-2xl font-bold mb-4">Menu</h2>  
- <ul className="space-y-2">  
+ <main >  
+ <h2 >Menu</h2>  
+ <ul >  
  {menuItems.map((item, index) => (  
- <li key={index} className="flex justify-between">  
+ <li key={index} >  
  <span>{item.name}</span>  
  <span>{item.price}</span>  
  </li>  
